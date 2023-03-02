@@ -1,0 +1,52 @@
+<!-- Radio Button, Drop Down Menus, Text Area Inputs -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+    <form>
+      <h3>You are from USA or Outside</h3>
+      <label for="inusa">Inside:</label>
+      <input id="inusa" type="radio" name="" value="">
+      <label for="outusa">Outside:</label>
+      <input id="outusa" type="radio" name="" value="">
+
+    </form>
+
+    <!-- NOW TO SELECT ONLY ONE RADIO BUTTON LIKE ON OFF -->
+
+    <form>
+      <h3>You are from USA or Outside</h3>
+      <label for="inusa">Inside:</label>
+      <input id="inusa" type="radio" name="loc" value="inside">
+      <label for="outusa">Outside:</label>
+      <input id="outusa" type="radio" name="loc" value="outside">
+
+      <!-- as the input tag has same name so they are linked -->
+
+
+    <!-- dropdown menu -->
+
+    <h3>How was your service?</h3>
+    <select name="stars">
+      <option value="Great">3 </option>
+      <option value="Okay">2</option>
+      <option value="Bad">1</option>
+
+    </select>
+    <input type="submit" name="" value="submit">
+
+    <!-- for a bigger input text area -->
+    <h2>any other feedback</h2>
+
+    <textarea name="mytext" rows="8" cols="80" placeholder="Text"></textarea>
+    <input type="submit" name="" value="Submit">
+
+    </form>
+
+
+  </body>
+</html>
